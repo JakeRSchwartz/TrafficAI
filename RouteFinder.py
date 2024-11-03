@@ -1,6 +1,6 @@
 import osmnx as ox
-from Classes.RouteAlgo import RouteAlgo 
-from Classes.Helpers import Helpers
+from classes.RouteAlgo import RouteAlgo 
+from classes.Helpers import Helpers
 
 
 def main():

@@ -1,9 +1,9 @@
 from opencage.geocoder import OpenCageGeocode
+from config import API_KEY
 
 class Helpers:
     # Initialize the OpenCage geocoder as a class attribute
-    api_key = 'b691284543b641248480ea652bbff899'
-    geocoder = OpenCageGeocode(api_key)
+    geocoder = OpenCageGeocode(API_KEY)
     
     @staticmethod
     def CreateAdjList(G):
