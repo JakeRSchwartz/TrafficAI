@@ -1,7 +1,6 @@
 import osmnx as ox
 from classes.RouteAlgo import RouteAlgo 
 from classes.Helpers import Helpers
-from classes.LSTM import TravelTimeLSTM
 
 
 def PrintPath(start, goal, graph, G, route_algo):
