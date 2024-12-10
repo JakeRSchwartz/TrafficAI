@@ -7,10 +7,6 @@ class Helpers:
 
     @staticmethod
     def CreateAdjList(G):
-        """
-        Create an adjacency list with distance and travel time for each edge.
-        Handles cases where 'maxspeed' might be a list or missing.
-        """
         graph = {}
 
         for node in G.nodes:
